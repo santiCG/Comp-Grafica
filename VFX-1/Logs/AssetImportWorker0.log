@@ -1,23 +1,23 @@
 Using pre-set license
-Built from '2022.3/staging' branch; Version is '2022.3.15f1 (b58023a2b463) revision 11894819'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 11  (10.0.22631) 64bit Enterprise' Language: 'es' Physical Memory: 14211 MB
+Built from '2022.3/release' branch; Version is '2022.3.20f1 (61c2feb0970d) revision 6406910'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Core' Language: 'en' Physical Memory: 16072 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Unity.exe
+C:\Program Files\Unity\Hub\Editor\2022.3.20f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/ESTUDIANTES/Documents/GitHub/Comp-Grafica/VFX-1
+C:/Users/santi/Desktop/Universidad/6to/Comp Grafica/Comp-Grafica/VFX-1
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-61249
-Successfully changed project path to: C:/Users/ESTUDIANTES/Documents/GitHub/Comp-Grafica/VFX-1
-C:/Users/ESTUDIANTES/Documents/GitHub/Comp-Grafica/VFX-1
+60391
+Successfully changed project path to: C:/Users/santi/Desktop/Universidad/6to/Comp Grafica/Comp-Grafica/VFX-1
+C:/Users/santi/Desktop/Universidad/6to/Comp Grafica/Comp-Grafica/VFX-1
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -49,67 +49,65 @@ C:/Users/ESTUDIANTES/Documents/GitHub/Comp-Grafica/VFX-1
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [29232] Host "[IP] 10.37.62.44 [Port] 0 [Flags] 2 [Guid] 83919567 [EditorId] 83919567 [Version] 1048832 [Id] WindowsEditor(7,N00018643) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [24760] Host "[IP] 192.168.1.8 [Port] 0 [Flags] 2 [Guid] 2121619572 [EditorId] 2121619572 [Version] 1048832 [Id] WindowsEditor(7,Laptop-Aorus) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [29232] Host "[IP] 10.37.62.44 [Port] 0 [Flags] 2 [Guid] 83919567 [EditorId] 83919567 [Version] 1048832 [Id] WindowsEditor(7,N00018643) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [24760] Host "[IP] 192.168.1.8 [Port] 0 [Flags] 2 [Guid] 2121619572 [EditorId] 2121619572 [Version] 1048832 [Id] WindowsEditor(7,Laptop-Aorus) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
-Refreshing native plugins compatible for Editor in 19.04 ms, found 3 plugins.
+[Physics::Module] Initialized MultithreadedJobDispatcher with 19 workers.
+Refreshing native plugins compatible for Editor in 82.89 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Initialize engine version: 2022.3.15f1 (b58023a2b463)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.15f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/ESTUDIANTES/Documents/GitHub/Comp-Grafica/VFX-1/Assets
+Initialize engine version: 2022.3.20f1 (61c2feb0970d)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/santi/Desktop/Universidad/6to/Comp Grafica/Comp-Grafica/VFX-1/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA Quadro RTX 3000 (ID=0x1f36)
+    Renderer: NVIDIA GeForce RTX 4070 Laptop GPU (ID=0x2820)
     Vendor:   NVIDIA
-    VRAM:     5968 MB
-    Driver:   31.0.15.3118
+    VRAM:     7948 MB
+    Driver:   32.0.15.6070
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.15f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.15f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56584
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56416
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.15f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.018639 seconds.
-- Loaded All Assemblies, in  0.474 seconds
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006782 seconds.
+- Loaded All Assemblies, in  0.280 seconds
 Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.344 seconds
-Domain Reload Profiling: 814ms
-	BeginReloadAssembly (140ms)
+- Finished resetting the current domain, in  0.211 seconds
+Domain Reload Profiling: 490ms
+	BeginReloadAssembly (90ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (45ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (91ms)
-	LoadAllAssembliesAndSetupDomain (181ms)
-		LoadAssemblies (136ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (46ms)
+	LoadAllAssembliesAndSetupDomain (108ms)
+		LoadAssemblies (88ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (178ms)
-			TypeCache.Refresh (176ms)
-				TypeCache.ScanAssembly (159ms)
+		AnalyzeDomain (106ms)
+			TypeCache.Refresh (105ms)
+				TypeCache.ScanAssembly (95ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (345ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (212ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (265ms)
+		SetupLoadedEditorAssemblies (169ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (16ms)
-			SetLoadedEditorAssemblies (6ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (173ms)
-			ProcessInitializeOnLoadMethodAttributes (68ms)
+			ProcessInitializeOnLoadAttributes (112ms)
+			ProcessInitializeOnLoadMethodAttributes (44ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -117,63 +115,62 @@ Domain Reload Profiling: 814ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.785 seconds
-Refreshing native plugins compatible for Editor in 7.27 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.578 seconds
+Refreshing native plugins compatible for Editor in 2.75 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.728 seconds
-Domain Reload Profiling: 1505ms
-	BeginReloadAssembly (165ms)
+- Finished resetting the current domain, in  0.445 seconds
+Domain Reload Profiling: 1021ms
+	BeginReloadAssembly (103ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
+		DisableScriptedObjects (3ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (21ms)
-	RebuildCommonClasses (35ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (58ms)
-	LoadAllAssembliesAndSetupDomain (507ms)
-		LoadAssemblies (389ms)
+		CreateAndSetChildDomain (15ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (412ms)
+		LoadAssemblies (342ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (219ms)
-			TypeCache.Refresh (188ms)
-				TypeCache.ScanAssembly (169ms)
-			ScanForSourceGeneratedMonoScriptInfo (21ms)
-			ResolveRequiredComponents (9ms)
-	FinalizeReload (728ms)
+		AnalyzeDomain (132ms)
+			TypeCache.Refresh (108ms)
+				TypeCache.ScanAssembly (97ms)
+			ScanForSourceGeneratedMonoScriptInfo (15ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (446ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (545ms)
+		SetupLoadedEditorAssemblies (327ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (12ms)
-			SetLoadedEditorAssemblies (3ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (2ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (86ms)
-			ProcessInitializeOnLoadAttributes (352ms)
-			ProcessInitializeOnLoadMethodAttributes (78ms)
-			AfterProcessingInitializeOnLoad (14ms)
+			BeforeProcessingInitializeOnLoad (49ms)
+			ProcessInitializeOnLoadAttributes (219ms)
+			ProcessInitializeOnLoadMethodAttributes (48ms)
+			AfterProcessingInitializeOnLoad (5ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (17ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
-Refreshing native plugins compatible for Editor in 7.31 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 5.00 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4932 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 65 unused Assets / (349.8 KB). Loaded Objects now: 5391.
-Memory consumption went from 202.4 MB to 202.1 MB.
-Total: 3.382200 ms (FindLiveObjects: 0.340700 ms CreateObjectMapping: 0.257100 ms MarkObjects: 2.614100 ms  DeleteObjects: 0.169300 ms)
+Unloading 4934 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 65 unused Assets / (350.9 KB). Loaded Objects now: 5392.
+Memory consumption went from 203.1 MB to 202.8 MB.
+Total: 4.009100 ms (FindLiveObjects: 0.284300 ms CreateObjectMapping: 0.173500 ms MarkObjects: 3.301800 ms  DeleteObjects: 0.247600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 4d1d7186bcbbfe361de5f0ad951e585c -> 
+  custom:CustomObjectIndexerAttribute: 62b5816608c3102f162a1797e29626cf -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
@@ -183,56 +180,207 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
+Received Import Request.
+  Time since last request: 1826685.337824 seconds.
+  path: Assets/Timeline.playable
+  artifactKey: Guid(98684b08e32abe9428c8dabf5b031ce1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Timeline.playable using Guid(98684b08e32abe9428c8dabf5b031ce1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '921e3e5949ab4105f32d12257d6cf7e4') in 0.037098 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Sword.obj
+  artifactKey: Guid(a11fdff3a21ceb54dac9e0c6ba2fa2d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sword.obj using Guid(a11fdff3a21ceb54dac9e0c6ba2fa2d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dd109d144fa2e4c1c01105594f6e775') in 0.998915 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/UniversalRenderPipelineGlobalSettings.asset
+  artifactKey: Guid(18dc0cd2c080841dea60987a38ce93fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UniversalRenderPipelineGlobalSettings.asset using Guid(18dc0cd2c080841dea60987a38ce93fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b9ed3c4cc2bcc5f07d20d853f149372') in 0.001545 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 1110.656586 seconds.
+  path: Assets/Scenes/Test1.unity
+  artifactKey: Guid(d7a800fcb18e7624fba4a911a104410b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Test1.unity using Guid(d7a800fcb18e7624fba4a911a104410b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22f345f14b0297e0d9ba6e65079840a2') in 0.000837 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1547.961882 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/ParticlesUnlit.mat
+  artifactKey: Guid(e823cd5b5d27c0f4b8256e7c12ee3e6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/ParticlesUnlit.mat using Guid(e823cd5b5d27c0f4b8256e7c12ee3e6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ff30b51b13a6a13b0644710e0cc4b88') in 0.125165 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 11.576999 seconds.
+  path: Assets/Materials/particleGLow.mat
+  artifactKey: Guid(a69f190844597854fbf74016eb81ca3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/particleGLow.mat using Guid(a69f190844597854fbf74016eb81ca3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a76ed4537da7a56c94a5824c96125ee9') in 0.060617 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 2.495966 seconds.
+  path: Assets/Materials/FloorLight.mat
+  artifactKey: Guid(5212e9b2f3654164282fdae450331dc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/FloorLight.mat using Guid(5212e9b2f3654164282fdae450331dc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd79b74b16e5309611b6ba1b38b8a5a7') in 0.016347 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 3.686031 seconds.
+  path: Assets/Materials/LightVolume.mat
+  artifactKey: Guid(3dc3fb87764ed034e8968c1b619a4ac5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/LightVolume.mat using Guid(3dc3fb87764ed034e8968c1b619a4ac5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '106bf50f14aaea59185426cf99a6d65b') in 0.122259 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 34.405628 seconds.
+  path: Assets/Materials/Wave.mat
+  artifactKey: Guid(96acca130f32dcc45886f58144c42f9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Wave.mat using Guid(96acca130f32dcc45886f58144c42f9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e933b0e38e66f55646ccfa4f1e8f6b0f') in 0.017150 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 5.458422 seconds.
+  path: Assets/Materials/piso.mat
+  artifactKey: Guid(a7b260773776c974fb02bfdbe1f15945) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/piso.mat using Guid(a7b260773776c974fb02bfdbe1f15945) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff5055e8bb2a958f34bf15c887c840b5') in 0.098725 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/Materials/SlashExtra.mat
+  artifactKey: Guid(0e2ba9f96c8da83488505ab8be021922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/SlashExtra.mat using Guid(0e2ba9f96c8da83488505ab8be021922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80f05da2474dc3df0536edb8beb7bde1') in 0.270343 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Materials/SlashBG.mat
+  artifactKey: Guid(228ef2860b0b84740acc5f0e850bc92e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/SlashBG.mat using Guid(228ef2860b0b84740acc5f0e850bc92e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1396d8cd047043df11fdec60e37be4af') in 0.065601 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 1017.072846 seconds.
+  path: Assets/Materials/Textura rayo.png
+  artifactKey: Guid(744aa52950d3ea94eb860c3ef098fa3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Textura rayo.png using Guid(744aa52950d3ea94eb860c3ef098fa3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e60d92cae8136f1614ca212f003552ba') in 0.088533 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 20.701224 seconds.
+  path: Assets/Materials/Textura rayo.png
+  artifactKey: Guid(744aa52950d3ea94eb860c3ef098fa3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Textura rayo.png using Guid(744aa52950d3ea94eb860c3ef098fa3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6754ccfb3a57f7c4848bb0f49cff065e') in 0.017225 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 168.076324 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(2b3f90a5456ba8c4aa64012000e7488c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(2b3f90a5456ba8c4aa64012000e7488c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eeee2c8246ae4d08882fa56c9ea99d00') in 0.000800 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 8.363741 seconds.
+  path: Assets/Scenes/Ej Tornado.unity
+  artifactKey: Guid(36e45db822c6bd349b1f107f2d3e3a9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Ej Tornado.unity using Guid(36e45db822c6bd349b1f107f2d3e3a9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44fc073971997953ef24f2b2e4ef1112') in 0.000738 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 43.141361 seconds.
+  path: Assets/Materials
+  artifactKey: Guid(b38794d1d41f31640b173a0c2eb0cddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials using Guid(b38794d1d41f31640b173a0c2eb0cddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1b2dd810134aaba767a62012b381114') in 0.000621 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 16.437662 seconds.
+  path: Assets/Materials/tornado1.mat
+  artifactKey: Guid(0acf448c1d5e8fc4894f65a238b0d478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/tornado1.mat using Guid(0acf448c1d5e8fc4894f65a238b0d478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '727faa931e9350a4959db2ea475d836e') in 0.024057 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 458.749952 seconds.
+  path: Assets/Materials/tornado1.mat
+  artifactKey: Guid(0acf448c1d5e8fc4894f65a238b0d478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/tornado1.mat using Guid(0acf448c1d5e8fc4894f65a238b0d478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcaec6419c8691a17d29e2b316aa1726') in 0.036140 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.569 seconds
-Refreshing native plugins compatible for Editor in 7.64 ms, found 3 plugins.
+- Loaded All Assemblies, in  1.188 seconds
+Refreshing native plugins compatible for Editor in 7.33 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.655 seconds
-Domain Reload Profiling: 2217ms
-	BeginReloadAssembly (187ms)
+- Finished resetting the current domain, in  8.000 seconds
+Domain Reload Profiling: 9183ms
+	BeginReloadAssembly (396ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
+		DisableScriptedObjects (50ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (36ms)
+		CreateAndSetChildDomain (132ms)
 	RebuildCommonClasses (43ms)
 	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (42ms)
-	LoadAllAssembliesAndSetupDomain (277ms)
-		LoadAssemblies (344ms)
+	initialDomainReloadingComplete (50ms)
+	LoadAllAssembliesAndSetupDomain (680ms)
+		LoadAssemblies (702ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (41ms)
-			TypeCache.Refresh (9ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (20ms)
-			ResolveRequiredComponents (11ms)
-	FinalizeReload (1656ms)
+		AnalyzeDomain (127ms)
+			TypeCache.Refresh (82ms)
+				TypeCache.ScanAssembly (60ms)
+			ScanForSourceGeneratedMonoScriptInfo (29ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (8001ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (529ms)
+		SetupLoadedEditorAssemblies (592ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (12ms)
-			SetLoadedEditorAssemblies (4ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (6ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (93ms)
-			ProcessInitializeOnLoadAttributes (338ms)
-			ProcessInitializeOnLoadMethodAttributes (68ms)
-			AfterProcessingInitializeOnLoad (14ms)
+			BeforeProcessingInitializeOnLoad (96ms)
+			ProcessInitializeOnLoadAttributes (383ms)
+			ProcessInitializeOnLoadMethodAttributes (84ms)
+			AfterProcessingInitializeOnLoad (11ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (25ms)
-Refreshing native plugins compatible for Editor in 7.20 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (26ms)
+Refreshing native plugins compatible for Editor in 10.69 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4781 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 40 unused Assets / (318.6 KB). Loaded Objects now: 5397.
-Memory consumption went from 178.1 MB to 177.8 MB.
-Total: 3.116200 ms (FindLiveObjects: 0.346600 ms CreateObjectMapping: 0.323600 ms MarkObjects: 2.355800 ms  DeleteObjects: 0.089500 ms)
+Unloading 5368 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 53 unused Assets / (2.0 MB). Loaded Objects now: 6056.
+Memory consumption went from 202.9 MB to 200.9 MB.
+Total: 6.332700 ms (FindLiveObjects: 0.444700 ms CreateObjectMapping: 0.188600 ms MarkObjects: 4.948400 ms  DeleteObjects: 0.749400 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -240,7 +388,7 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 4d1d7186bcbbfe361de5f0ad951e585c -> 
+  custom:CustomObjectIndexerAttribute: 62b5816608c3102f162a1797e29626cf -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
@@ -251,73 +399,753 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 1788542.997410 seconds.
-  path: Assets/PathRecorder
-  artifactKey: Guid(2beee5b35621fa2469339096b9842a62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PathRecorder using Guid(2beee5b35621fa2469339096b9842a62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56b72009c88f7f0a9a59d8e1ce581c1d') in 0.010972 seconds
+  Time since last request: 3970.180314 seconds.
+  path: Assets/Prefabs/Single Particle Static.prefab
+  artifactKey: Guid(7aa58ee35ef718245b3f1a2be79bc648) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Single Particle Static.prefab using Guid(7aa58ee35ef718245b3f1a2be79bc648) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15aa4860beb6d39dddff7b3047668017') in 0.234062 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 26
 ========================================================================
 Received Import Request.
-  Time since last request: 0.795122 seconds.
-  path: Assets/PathRecorder/PathRecorder.cs
-  artifactKey: Guid(a60f5cbfda50ce94d8d13dded62689f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PathRecorder/PathRecorder.cs using Guid(a60f5cbfda50ce94d8d13dded62689f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f557f3976d08eaac4da3169bef62012e') in 0.000710 seconds
+  Time since last request: 0.000023 seconds.
+  path: Assets/Prefabs/StaticSingleParticle.prefab
+  artifactKey: Guid(e39b2930f74078844a9d81fcf22e62c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/StaticSingleParticle.prefab using Guid(e39b2930f74078844a9d81fcf22e62c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8748c88824d6d1e2e2ed1886c8c794c5') in 0.012615 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 7
 ========================================================================
 Received Import Request.
-  Time since last request: 0.512514 seconds.
-  path: Assets/PathRecorder/Editor
-  artifactKey: Guid(b1bdc3ae25770964989fab7c83e492c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PathRecorder/Editor using Guid(b1bdc3ae25770964989fab7c83e492c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed7f95deb15e1f9588e984cc6553a30f') in 0.000949 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.694809 seconds.
-  path: Assets/PathRecorder/Blender Utils
-  artifactKey: Guid(ee09e989b29f6144da720fbdbc414144) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PathRecorder/Blender Utils using Guid(ee09e989b29f6144da720fbdbc414144) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10f511a69b96045a81f1f108c08d3afc') in 0.000830 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 1.394909 seconds.
-  path: Assets/PathRecorder/Blender Utils/ImportPathFromUnity.py
-  artifactKey: Guid(1f98c1a5617cc3345aaa9b5c32e505a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PathRecorder/Blender Utils/ImportPathFromUnity.py using Guid(1f98c1a5617cc3345aaa9b5c32e505a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be1f728ea10093b7d437e8043dfb7678') in 0.015203 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 3395.027003 seconds.
-  path: Assets/SlashCombo1.fbx
-  artifactKey: Guid(623651c038b270848827caee8d0ee26a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SlashCombo1.fbx using Guid(623651c038b270848827caee8d0ee26a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fea8b1ea4ce43ed7b348d4187110b815') in 0.597844 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 40
-========================================================================
-Received Import Request.
-  Time since last request: 56.992896 seconds.
-  path: Assets/SlashCombo1.fbx
-  artifactKey: Guid(623651c038b270848827caee8d0ee26a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SlashCombo1.fbx using Guid(623651c038b270848827caee8d0ee26a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be8c59bce64e0ff8b1a7a6231be4a572') in 0.040132 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 21
-========================================================================
-Received Import Request.
-  Time since last request: 279.484998 seconds.
-  path: Assets/SlashCombo1.fbx
-  artifactKey: Guid(623651c038b270848827caee8d0ee26a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SlashCombo1.fbx using Guid(623651c038b270848827caee8d0ee26a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07c21bd5a37bc06cb53a8d22072a7261') in 0.021398 seconds
+  Time since last request: 0.000037 seconds.
+  path: Assets/Prefabs/SlashMesh1.fbx
+  artifactKey: Guid(4d18d04346bab1946a49177712a88a5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/SlashMesh1.fbx using Guid(4d18d04346bab1946a49177712a88a5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '438a5d028d604770c31ac53de03eb7ca') in 0.044180 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 9
 ========================================================================
 Received Import Request.
-  Time since last request: 336.983686 seconds.
-  path: Assets/Timeline.playable
-  artifactKey: Guid(98684b08e32abe9428c8dabf5b031ce1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Timeline.playable using Guid(98684b08e32abe9428c8dabf5b031ce1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ee903d1851fc5bd425c5f99ddc2c09b') in 0.021730 seconds
+  Time since last request: 17.051537 seconds.
+  path: Assets/Prefabs
+  artifactKey: Guid(f3f66276b06deb343af6103ae00e9be9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs using Guid(f3f66276b06deb343af6103ae00e9be9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4a1c9bf79d8fff2a7b028df9b2379d5') in 0.000652 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 11.664630 seconds.
+  path: Assets/Prefabs/ModeloTornado.blend
+  artifactKey: Guid(6694617f3d814bb4186909ce7126ecb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ModeloTornado.blend using Guid(6694617f3d814bb4186909ce7126ecb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19a4b7c53388178107ee73aad89d8328') in 0.001020 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 43.856466 seconds.
+  path: Assets/Prefabs/ModeloTornado.fbx
+  artifactKey: Guid(232c1298817e06f4094f6a0c80ff68d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ModeloTornado.fbx using Guid(232c1298817e06f4094f6a0c80ff68d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1c2d7bab01d70fe5fbe4114c547ccf8') in 0.035609 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 52.722797 seconds.
+  path: Assets/shaders
+  artifactKey: Guid(7d4ceb9c99a5eb74086b25e669a7c3c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shaders using Guid(7d4ceb9c99a5eb74086b25e669a7c3c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ff9566c3a2a60c70e131727b80cf794') in 0.001023 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.051507 seconds.
+  path: Assets/shaders/SlashMtl.mat
+  artifactKey: Guid(3713940f9a59d6e4394e1231f64b8e9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shaders/SlashMtl.mat using Guid(3713940f9a59d6e4394e1231f64b8e9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4340eec94d635742fe3ed8849ea6695c') in 0.020542 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.914275 seconds.
+  path: Assets/shaders/particlesAnimatedUnlit.shadergraph
+  artifactKey: Guid(b151a3034d4ab454e84bc409a625a8b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shaders/particlesAnimatedUnlit.shadergraph using Guid(b151a3034d4ab454e84bc409a625a8b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44e379708b155172a993304ebc748e3a') in 0.016023 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 47.091222 seconds.
+  path: Assets/shaders/TornadoShader.shadergraph
+  artifactKey: Guid(6cf048c147565b043850a11ff3a03802) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shaders/TornadoShader.shadergraph using Guid(6cf048c147565b043850a11ff3a03802) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2c2149d57e1a1f1d2a9ebbabf2b300e') in 0.009891 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 11.290961 seconds.
+  path: Assets/shaders/SlashMtl.mat
+  artifactKey: Guid(3713940f9a59d6e4394e1231f64b8e9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shaders/SlashMtl.mat using Guid(3713940f9a59d6e4394e1231f64b8e9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81181dbe93e192120ead0a6330297008') in 0.256696 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 228.917050 seconds.
+  path: Assets/shaders/Shader Graphs_TornadoShader.mat
+  artifactKey: Guid(0cf2b3991c5ce5e42a11b465bf368782) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shaders/Shader Graphs_TornadoShader.mat using Guid(0cf2b3991c5ce5e42a11b465bf368782) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19c01a7d37e266d1fe478195289ef8c4') in 0.015647 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 23.121389 seconds.
+  path: Assets/shaders/Shader Graphs_TornadoShader.mat
+  artifactKey: Guid(0cf2b3991c5ce5e42a11b465bf368782) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shaders/Shader Graphs_TornadoShader.mat using Guid(0cf2b3991c5ce5e42a11b465bf368782) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23c8a650fcf88be21adb3dfdb6f98c3a') in 0.332141 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 948.257197 seconds.
+  path: Assets/shaders/Shader Graphs_TornadoShader.mat
+  artifactKey: Guid(0cf2b3991c5ce5e42a11b465bf368782) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shaders/Shader Graphs_TornadoShader.mat using Guid(0cf2b3991c5ce5e42a11b465bf368782) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e152d213dd4d3f2d857a25eaa5405086') in 0.458274 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 124.143812 seconds.
+  path: Assets/Prefabs/TornadoVFX.vfx
+  artifactKey: Guid(01716b7dc57820f48910249743754afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/TornadoVFX.vfx using Guid(01716b7dc57820f48910249743754afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '056bd67d93a65cad4dbff24e058bbb71') in 0.004047 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 6.931093 seconds.
+  path: Assets/Prefabs/TornadoVFX.vfx
+  artifactKey: Guid(01716b7dc57820f48910249743754afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/TornadoVFX.vfx using Guid(01716b7dc57820f48910249743754afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '650ade5ce93462e6e1dc314ff92dd4bb') in 0.002863 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 20.519966 seconds.
+  path: Assets/Prefabs/TornadoVFX.vfx
+  artifactKey: Guid(01716b7dc57820f48910249743754afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/TornadoVFX.vfx using Guid(01716b7dc57820f48910249743754afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc2448cb438e8388cced8d8aa8f99270') in 0.002777 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 18.296588 seconds.
+  path: Assets/Prefabs/TornadoVFX.vfx
+  artifactKey: Guid(01716b7dc57820f48910249743754afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/TornadoVFX.vfx using Guid(01716b7dc57820f48910249743754afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb65487f2c6811de19aa4c950b06ff8b') in 0.002762 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 5.213167 seconds.
+  path: Assets/Prefabs/TornadoVFX.vfx
+  artifactKey: Guid(01716b7dc57820f48910249743754afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/TornadoVFX.vfx using Guid(01716b7dc57820f48910249743754afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c97a6f8583056c5ebc5cca6cd37bb5df') in 0.002690 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 16.994996 seconds.
+  path: Assets/Prefabs/TornadoVFX.vfx
+  artifactKey: Guid(01716b7dc57820f48910249743754afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/TornadoVFX.vfx using Guid(01716b7dc57820f48910249743754afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7541cb48f0f016858f472c99525eb13') in 0.003167 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 1.846711 seconds.
+  path: Assets/Prefabs/TornadoVFX.vfx
+  artifactKey: Guid(01716b7dc57820f48910249743754afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/TornadoVFX.vfx using Guid(01716b7dc57820f48910249743754afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1da33b3ba267f95ccaabeaeaa203084') in 0.002975 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 11.412923 seconds.
+  path: Assets/Prefabs/TornadoVFX.vfx
+  artifactKey: Guid(01716b7dc57820f48910249743754afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/TornadoVFX.vfx using Guid(01716b7dc57820f48910249743754afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c84bdc25d2fb724221d8eacf854cbd9f') in 0.004502 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 6.235958 seconds.
+  path: Assets/Prefabs/TornadoVFX.vfx
+  artifactKey: Guid(01716b7dc57820f48910249743754afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/TornadoVFX.vfx using Guid(01716b7dc57820f48910249743754afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3841998635b8ed28cf3038521dfa68e0') in 0.002643 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 16.702856 seconds.
+  path: Assets/Prefabs/TornadoVFX.vfx
+  artifactKey: Guid(01716b7dc57820f48910249743754afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/TornadoVFX.vfx using Guid(01716b7dc57820f48910249743754afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5607c401e36487d93ab1ec17688a45e') in 0.004029 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 20.491860 seconds.
+  path: Assets/Prefabs/TornadoVFX.vfx
+  artifactKey: Guid(01716b7dc57820f48910249743754afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/TornadoVFX.vfx using Guid(01716b7dc57820f48910249743754afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5b95ce14b5fec18477cad2e27257244') in 0.003416 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 59.819197 seconds.
+  path: Assets/Prefabs/TornadoVFX.vfx
+  artifactKey: Guid(01716b7dc57820f48910249743754afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/TornadoVFX.vfx using Guid(01716b7dc57820f48910249743754afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '612d15580b7c7bced5ce95e98cfb110f') in 0.004668 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 10.278323 seconds.
+  path: Assets/Prefabs/TornadoVFX.vfx
+  artifactKey: Guid(01716b7dc57820f48910249743754afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/TornadoVFX.vfx using Guid(01716b7dc57820f48910249743754afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98a9a17a0a4ca39d73747cea4265b455') in 0.002730 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 17.062540 seconds.
+  path: Assets/shaders/TornadoShader.shadergraph
+  artifactKey: Guid(6cf048c147565b043850a11ff3a03802) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shaders/TornadoShader.shadergraph using Guid(6cf048c147565b043850a11ff3a03802) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66e93cba6ec28fbb591b10a4ef3402a4') in 0.036147 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 1.261322 seconds.
+  path: Assets/Prefabs/TornadoVFX.vfx
+  artifactKey: Guid(01716b7dc57820f48910249743754afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/TornadoVFX.vfx using Guid(01716b7dc57820f48910249743754afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37ad8ce46a184ed37d657881bdd36653') in 0.002768 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 8.542616 seconds.
+  path: Assets/Prefabs/TornadoVFX.vfx
+  artifactKey: Guid(01716b7dc57820f48910249743754afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/TornadoVFX.vfx using Guid(01716b7dc57820f48910249743754afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '390353cb7d2243914328cb0d7ca5d891') in 0.003814 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 1.463794 seconds.
+  path: Assets/Prefabs/TornadoVFX.vfx
+  artifactKey: Guid(01716b7dc57820f48910249743754afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/TornadoVFX.vfx using Guid(01716b7dc57820f48910249743754afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b6ea17d78d0e6937a52b7f8934f04f8') in 0.002778 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 14.605231 seconds.
+  path: Assets/Prefabs/TornadoVFX.vfx
+  artifactKey: Guid(01716b7dc57820f48910249743754afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/TornadoVFX.vfx using Guid(01716b7dc57820f48910249743754afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e25039c572367e12a6583e5db97709a') in 0.003152 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 60.741931 seconds.
+  path: Assets/Prefabs/TornadoVFX.vfx
+  artifactKey: Guid(01716b7dc57820f48910249743754afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/TornadoVFX.vfx using Guid(01716b7dc57820f48910249743754afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bf282bb7b7ee9b8974b75ea74a7a182') in 0.003106 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 39.132776 seconds.
+  path: Assets/Materials/SlashBase.mat
+  artifactKey: Guid(59e27fad94322f94bb61f5c424ce9d2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/SlashBase.mat using Guid(59e27fad94322f94bb61f5c424ce9d2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59bbee311175234c67e1801102eeabbd') in 0.009307 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Materials/SlashExtra.mat
+  artifactKey: Guid(0e2ba9f96c8da83488505ab8be021922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/SlashExtra.mat using Guid(0e2ba9f96c8da83488505ab8be021922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb673386e2e141b53f9c64fcb5c1afeb') in 0.007368 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 105.963128 seconds.
+  path: Assets/Prefabs/TornadoVFX.vfx
+  artifactKey: Guid(01716b7dc57820f48910249743754afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/TornadoVFX.vfx using Guid(01716b7dc57820f48910249743754afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e829055168673d34351592d7716621ef') in 0.003231 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 2.033003 seconds.
+  path: Assets/Prefabs/TornadoVFX.vfx
+  artifactKey: Guid(01716b7dc57820f48910249743754afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/TornadoVFX.vfx using Guid(01716b7dc57820f48910249743754afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '143394cb4ae0ade56a1e2d856e05aa8d') in 0.002781 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 34.025683 seconds.
+  path: Assets/Grruzam Powerful Sword Animation(Great Sword, Katana)/Modeling/Modeling_T-Pose_Grrrru_Man(recommend).FBX
+  artifactKey: Guid(43992d4f16e57574fa5d16ef485c0cbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Grruzam Powerful Sword Animation(Great Sword, Katana)/Modeling/Modeling_T-Pose_Grrrru_Man(recommend).FBX using Guid(43992d4f16e57574fa5d16ef485c0cbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9110ef852d351e4b972765a7019d7f95') in 0.058958 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 149
+========================================================================
+Received Import Request.
+  Time since last request: 44.263383 seconds.
+  path: Assets/Settings/SampleSceneProfile.asset
+  artifactKey: Guid(a6560a915ef98420e9faacc1c7438823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/SampleSceneProfile.asset using Guid(a6560a915ef98420e9faacc1c7438823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0dc0bd918f8c7beaca92d8ce642399e') in 0.002231 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Settings/URP-HighFidelity.asset
+  artifactKey: Guid(7b7fd9122c28c4d15b667c7040e3b3fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/URP-HighFidelity.asset using Guid(7b7fd9122c28c4d15b667c7040e3b3fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a6d07ce80a7283894eb65889c804693') in 0.000688 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Settings/URP-Performant-Renderer.asset
+  artifactKey: Guid(707360a9c581a4bd7aa53bfeb1429f71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/URP-Performant-Renderer.asset using Guid(707360a9c581a4bd7aa53bfeb1429f71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '404c86416487408e18cf06f58b3e5ec2') in 0.002585 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Settings/URP-Performant.asset
+  artifactKey: Guid(d0e2fc18fe036412f8223b3b3d9ad574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/URP-Performant.asset using Guid(d0e2fc18fe036412f8223b3b3d9ad574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbfa565d396e81d8122dd484c0dc59a6') in 0.001771 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 3.561047 seconds.
+  path: Assets/Slash Animations/M_Big_Sword@Attack_3Combo_1 1.FBX
+  artifactKey: Guid(5e50644e726a3e943b455c7516ddefb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Slash Animations/M_Big_Sword@Attack_3Combo_1 1.FBX using Guid(5e50644e726a3e943b455c7516ddefb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d7a7169e853127f9ba5fc6abbf69824') in 0.004825 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 141
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Slash Animations/M_Big_Sword@Attack_3Combo_3 1.FBX
+  artifactKey: Guid(c586169beed249a47972f747273a2d3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Slash Animations/M_Big_Sword@Attack_3Combo_3 1.FBX using Guid(c586169beed249a47972f747273a2d3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed4d4dac803296c54d273776f1f190c2') in 0.003987 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 141
+========================================================================
+Received Import Request.
+  Time since last request: 24.131259 seconds.
+  path: Assets/shaders/Shader Graphs_TornadoShader.mat
+  artifactKey: Guid(0cf2b3991c5ce5e42a11b465bf368782) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shaders/Shader Graphs_TornadoShader.mat using Guid(0cf2b3991c5ce5e42a11b465bf368782) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2293c8bcfd489a60e14369894c38a60') in 0.023134 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 31.695982 seconds.
+  path: Assets/Prefabs/TornadoVFX.vfx
+  artifactKey: Guid(01716b7dc57820f48910249743754afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/TornadoVFX.vfx using Guid(01716b7dc57820f48910249743754afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56d2a5a2cfb9c31532d4b635c6f67853') in 0.003404 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 18.996681 seconds.
+  path: Assets/Prefabs/TornadoVFX.vfx
+  artifactKey: Guid(01716b7dc57820f48910249743754afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/TornadoVFX.vfx using Guid(01716b7dc57820f48910249743754afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5bd977937c826c0dff87770f3db4325') in 0.003237 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 19.539836 seconds.
+  path: Assets/Prefabs/TornadoVFX.vfx
+  artifactKey: Guid(01716b7dc57820f48910249743754afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/TornadoVFX.vfx using Guid(01716b7dc57820f48910249743754afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06075ac10c8e3d7ba1f0a10514248f7c') in 0.003912 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 174.054604 seconds.
+  path: Assets/Prefabs/TornadoVFX.vfx
+  artifactKey: Guid(01716b7dc57820f48910249743754afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/TornadoVFX.vfx using Guid(01716b7dc57820f48910249743754afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddd00e9e69f3adc59bff16aa57292c29') in 0.005011 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 5.267175 seconds.
+  path: Assets/Prefabs/TornadoVFX.vfx
+  artifactKey: Guid(01716b7dc57820f48910249743754afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/TornadoVFX.vfx using Guid(01716b7dc57820f48910249743754afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b038c9b2cf7f68da44a0daa903c0905') in 0.002986 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 7.398534 seconds.
+  path: Assets/Prefabs/TornadoVFX.vfx
+  artifactKey: Guid(01716b7dc57820f48910249743754afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/TornadoVFX.vfx using Guid(01716b7dc57820f48910249743754afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7f701fba38e2da4bdd73e0562381eb2') in 0.003043 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 69.410417 seconds.
+  path: Assets/Prefabs/TornadoVFX.vfx
+  artifactKey: Guid(01716b7dc57820f48910249743754afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/TornadoVFX.vfx using Guid(01716b7dc57820f48910249743754afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'faaff5fc9e9cdee518c15ef4c6d7e48b') in 0.003202 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 31.434558 seconds.
+  path: Assets/Prefabs/TornadoVFX.vfx
+  artifactKey: Guid(01716b7dc57820f48910249743754afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/TornadoVFX.vfx using Guid(01716b7dc57820f48910249743754afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6653b44dd87d0c30a3929223359c17f') in 0.003729 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 3.994535 seconds.
+  path: Assets/Prefabs/TornadoVFX.vfx
+  artifactKey: Guid(01716b7dc57820f48910249743754afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/TornadoVFX.vfx using Guid(01716b7dc57820f48910249743754afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba9c35849c113775593f36bf52a51371') in 0.002792 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 35.347435 seconds.
+  path: Assets/Prefabs/TornadoVFX.vfx
+  artifactKey: Guid(01716b7dc57820f48910249743754afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/TornadoVFX.vfx using Guid(01716b7dc57820f48910249743754afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c544b1ff0b11bbae55d01f32f50e889') in 0.002795 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 5.144047 seconds.
+  path: Assets/Prefabs/TornadoVFX.vfx
+  artifactKey: Guid(01716b7dc57820f48910249743754afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/TornadoVFX.vfx using Guid(01716b7dc57820f48910249743754afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6a1041f1fcdf2146901b6e1d7b0ea37') in 0.002898 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 33.932030 seconds.
+  path: Assets/Prefabs/TornadoVFX.vfx
+  artifactKey: Guid(01716b7dc57820f48910249743754afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/TornadoVFX.vfx using Guid(01716b7dc57820f48910249743754afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fafe30c3ba62917e639d606692ed4f2') in 0.006165 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 797.167370 seconds.
+  path: Assets/Prefabs/TornadoVFX.vfx
+  artifactKey: Guid(01716b7dc57820f48910249743754afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/TornadoVFX.vfx using Guid(01716b7dc57820f48910249743754afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8aeff8d86473fa2552c7ccd016c43245') in 0.004837 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 2.054135 seconds.
+  path: Assets/Prefabs/TornadoVFX.vfx
+  artifactKey: Guid(01716b7dc57820f48910249743754afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/TornadoVFX.vfx using Guid(01716b7dc57820f48910249743754afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e269a765cee9fd0eb928d11fb2d5539') in 0.002883 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 1.729668 seconds.
+  path: Assets/Prefabs/TornadoVFX.vfx
+  artifactKey: Guid(01716b7dc57820f48910249743754afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/TornadoVFX.vfx using Guid(01716b7dc57820f48910249743754afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbed101557f8f98dabfe9e8012bef1ba') in 0.003137 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 9.025808 seconds.
+  path: Assets/Prefabs/TornadoVFX.vfx
+  artifactKey: Guid(01716b7dc57820f48910249743754afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/TornadoVFX.vfx using Guid(01716b7dc57820f48910249743754afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c5fca6019670fca7a7beb09c4902577') in 0.003009 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 4.467683 seconds.
+  path: Assets/Prefabs/TornadoVFX.vfx
+  artifactKey: Guid(01716b7dc57820f48910249743754afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/TornadoVFX.vfx using Guid(01716b7dc57820f48910249743754afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae5c1c377cfb961437ec07730f9e31f9') in 0.002912 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 5.225002 seconds.
+  path: Assets/Prefabs/TornadoVFX.vfx
+  artifactKey: Guid(01716b7dc57820f48910249743754afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/TornadoVFX.vfx using Guid(01716b7dc57820f48910249743754afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2833c0029d692011f57d9de707839821') in 0.003306 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 12.972123 seconds.
+  path: Assets/Prefabs/TornadoVFX.vfx
+  artifactKey: Guid(01716b7dc57820f48910249743754afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/TornadoVFX.vfx using Guid(01716b7dc57820f48910249743754afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc936a2e9b8a49ea599f217c9cde83d7') in 0.003052 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 1.242045 seconds.
+  path: Assets/Prefabs/TornadoVFX.vfx
+  artifactKey: Guid(01716b7dc57820f48910249743754afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/TornadoVFX.vfx using Guid(01716b7dc57820f48910249743754afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a005aa0a5de5735a7bfa386c01903081') in 0.003105 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 1.181335 seconds.
+  path: Assets/Prefabs/TornadoVFX.vfx
+  artifactKey: Guid(01716b7dc57820f48910249743754afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/TornadoVFX.vfx using Guid(01716b7dc57820f48910249743754afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '689ea692bf0564d41694d954b99c65f5') in 0.002853 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 44.932454 seconds.
+  path: Assets/Prefabs/TornadoVFX.vfx
+  artifactKey: Guid(01716b7dc57820f48910249743754afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/TornadoVFX.vfx using Guid(01716b7dc57820f48910249743754afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e43bc3b2272d04112f8d0b5db5da79c') in 0.004804 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 300.495221 seconds.
+  path: Assets/Prefabs/TornadoVFX.vfx
+  artifactKey: Guid(01716b7dc57820f48910249743754afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/TornadoVFX.vfx using Guid(01716b7dc57820f48910249743754afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ffe772fbd81c27474ab471ec10f7526') in 0.003427 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 6.874848 seconds.
+  path: Assets/Prefabs/TornadoVFX.vfx
+  artifactKey: Guid(01716b7dc57820f48910249743754afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/TornadoVFX.vfx using Guid(01716b7dc57820f48910249743754afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55df22b8ab3f53a0f3e37f08276931f2') in 0.003343 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 26.849094 seconds.
+  path: Assets/Prefabs/TornadoVFX.vfx
+  artifactKey: Guid(01716b7dc57820f48910249743754afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/TornadoVFX.vfx using Guid(01716b7dc57820f48910249743754afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c403cf4c9b0fae233de41f42bfdcd798') in 0.004137 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 8.031696 seconds.
+  path: Assets/Prefabs/TornadoVFX.vfx
+  artifactKey: Guid(01716b7dc57820f48910249743754afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/TornadoVFX.vfx using Guid(01716b7dc57820f48910249743754afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d601798afa48e34eb81aab874cf57bd') in 0.003445 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 104.148012 seconds.
+  path: Assets/Prefabs/TornadoVFX.vfx
+  artifactKey: Guid(01716b7dc57820f48910249743754afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/TornadoVFX.vfx using Guid(01716b7dc57820f48910249743754afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c313ef81494460f22a79774c564c8d6b') in 0.003127 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 48.957731 seconds.
+  path: Assets/Prefabs/TornadoVFX.vfx
+  artifactKey: Guid(01716b7dc57820f48910249743754afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/TornadoVFX.vfx using Guid(01716b7dc57820f48910249743754afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28b1a5bc390acf749b5a22b508374c96') in 0.005138 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 65.867009 seconds.
+  path: Assets/Prefabs/TornadoVFX.vfx
+  artifactKey: Guid(01716b7dc57820f48910249743754afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/TornadoVFX.vfx using Guid(01716b7dc57820f48910249743754afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baf275bb2ecb5b5280de83c742da6fef') in 0.003168 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 605.448498 seconds.
+  path: Assets/Prefabs/TornadoVFX.vfx
+  artifactKey: Guid(01716b7dc57820f48910249743754afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/TornadoVFX.vfx using Guid(01716b7dc57820f48910249743754afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3f9d4a3b0fe66c8c7bd24e26c23f481') in 0.007247 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 42.919426 seconds.
+  path: Assets/Prefabs/TornadoVFX.vfx
+  artifactKey: Guid(01716b7dc57820f48910249743754afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/TornadoVFX.vfx using Guid(01716b7dc57820f48910249743754afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ad2094a4ffba3ef086299f7a7e87e56') in 0.005197 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 6.519608 seconds.
+  path: Assets/Prefabs/TornadoVFX.vfx
+  artifactKey: Guid(01716b7dc57820f48910249743754afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/TornadoVFX.vfx using Guid(01716b7dc57820f48910249743754afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1434960b720983af367950d2e6fd159d') in 0.005264 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 11.028036 seconds.
+  path: Assets/Prefabs/TornadoVFX.vfx
+  artifactKey: Guid(01716b7dc57820f48910249743754afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/TornadoVFX.vfx using Guid(01716b7dc57820f48910249743754afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e56760dde3a9107de1f403e6b0243cd8') in 0.003942 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 11.726907 seconds.
+  path: Assets/Prefabs/TornadoVFX.vfx
+  artifactKey: Guid(01716b7dc57820f48910249743754afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/TornadoVFX.vfx using Guid(01716b7dc57820f48910249743754afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19df596c4360794d470a59ff85e91223') in 0.004130 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 33.014402 seconds.
+  path: Assets/shaders/Shader Graphs_TornadoShader.mat
+  artifactKey: Guid(0cf2b3991c5ce5e42a11b465bf368782) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shaders/Shader Graphs_TornadoShader.mat using Guid(0cf2b3991c5ce5e42a11b465bf368782) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cea3f42a9c3620e51ffb4794f1c983a') in 0.810204 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 27.529573 seconds.
+  path: Assets/Prefabs/TornadoVFX.vfx
+  artifactKey: Guid(01716b7dc57820f48910249743754afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/TornadoVFX.vfx using Guid(01716b7dc57820f48910249743754afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0b1103f233b87b4c495a33e373dd341') in 0.004113 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 5.150441 seconds.
+  path: Assets/Prefabs/TornadoVFX.vfx
+  artifactKey: Guid(01716b7dc57820f48910249743754afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/TornadoVFX.vfx using Guid(01716b7dc57820f48910249743754afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1f5a5453542be8d8ba46d9ad5f7724e') in 0.004070 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 6.503632 seconds.
+  path: Assets/Prefabs/TornadoVFX.vfx
+  artifactKey: Guid(01716b7dc57820f48910249743754afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/TornadoVFX.vfx using Guid(01716b7dc57820f48910249743754afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '633ede110ca50fc464a5513d1a1ceaf8') in 0.004100 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 3.413810 seconds.
+  path: Assets/Prefabs/TornadoVFX.vfx
+  artifactKey: Guid(01716b7dc57820f48910249743754afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/TornadoVFX.vfx using Guid(01716b7dc57820f48910249743754afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e380a074d1cc29b1e789b9982b2a85e1') in 0.004302 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 6.775852 seconds.
+  path: Assets/Prefabs/TornadoVFX.vfx
+  artifactKey: Guid(01716b7dc57820f48910249743754afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/TornadoVFX.vfx using Guid(01716b7dc57820f48910249743754afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaca87f8d28d8559502bbc980fbd8497') in 0.003978 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 76.961968 seconds.
+  path: Assets/Prefabs/TornadoVFX.vfx
+  artifactKey: Guid(01716b7dc57820f48910249743754afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/TornadoVFX.vfx using Guid(01716b7dc57820f48910249743754afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eff9c4b62d24a76a9b58632790c204a6') in 0.004288 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 127.730461 seconds.
+  path: Assets/Prefabs/TornadoVFX.vfx
+  artifactKey: Guid(01716b7dc57820f48910249743754afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/TornadoVFX.vfx using Guid(01716b7dc57820f48910249743754afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '295f52dae76f74d20a18406e7813ecc6') in 0.004530 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 79.328789 seconds.
+  path: Assets/Prefabs/TornadoVFX.vfx
+  artifactKey: Guid(01716b7dc57820f48910249743754afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/TornadoVFX.vfx using Guid(01716b7dc57820f48910249743754afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb455a8a2e950068158c78df4882328c') in 0.004940 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 25.772331 seconds.
+  path: Assets/Prefabs/TornadoVFX.vfx
+  artifactKey: Guid(01716b7dc57820f48910249743754afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/TornadoVFX.vfx using Guid(01716b7dc57820f48910249743754afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2853bcba934a49caad8edb318fa34456') in 0.004398 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 4.511026 seconds.
+  path: Assets/Prefabs/TornadoVFX.vfx
+  artifactKey: Guid(01716b7dc57820f48910249743754afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/TornadoVFX.vfx using Guid(01716b7dc57820f48910249743754afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '251919d63c78a7a43120730fbd1456e9') in 0.004155 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 70.582316 seconds.
+  path: Assets/Prefabs/TornadoVFX.vfx
+  artifactKey: Guid(01716b7dc57820f48910249743754afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/TornadoVFX.vfx using Guid(01716b7dc57820f48910249743754afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2287e12c7da090b94515755d1ff05ff6') in 0.004379 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 2.037893 seconds.
+  path: Assets/Prefabs/TornadoVFX.vfx
+  artifactKey: Guid(01716b7dc57820f48910249743754afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/TornadoVFX.vfx using Guid(01716b7dc57820f48910249743754afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0862a8b52e31ff17a3205e5b7ec0796f') in 0.004023 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 124.688999 seconds.
+  path: Assets/Prefabs/TornadoVFX.vfx
+  artifactKey: Guid(01716b7dc57820f48910249743754afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/TornadoVFX.vfx using Guid(01716b7dc57820f48910249743754afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb5dea11c2ebc0aad29230fca12eebdb') in 0.004350 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 27.163314 seconds.
+  path: Assets/Prefabs/TornadoVFX.vfx
+  artifactKey: Guid(01716b7dc57820f48910249743754afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/TornadoVFX.vfx using Guid(01716b7dc57820f48910249743754afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f83300b996b9711ca5b1fb4c06336bb') in 0.004290 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9

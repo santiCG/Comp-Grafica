@@ -34680,37 +34680,37 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: a11fdff3a21ceb54dac9e0c6ba2fa2d6,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.30179858
+      value: 0.77772045
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a11fdff3a21ceb54dac9e0c6ba2fa2d6,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.3571191
+      value: 1.4146063
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a11fdff3a21ceb54dac9e0c6ba2fa2d6,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.040056586
+      value: -0.05988326
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a11fdff3a21ceb54dac9e0c6ba2fa2d6,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.9857973
+      value: 0.7445818
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a11fdff3a21ceb54dac9e0c6ba2fa2d6,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.15077196
+      value: -0.08090268
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a11fdff3a21ceb54dac9e0c6ba2fa2d6,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.040379435
+      value: 0.17272756
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a11fdff3a21ceb54dac9e0c6ba2fa2d6,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.061976057
+      value: -0.63970137
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a11fdff3a21ceb54dac9e0c6ba2fa2d6,
         type: 3}
@@ -49547,7 +49547,7 @@ Transform:
   m_GameObject: {fileID: 1973618192}
   serializedVersion: 2
   m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -16.037588, y: -0.01, z: -8.575863}
+  m_LocalPosition: {x: -16.037588, y: -3.51, z: -8.575863}
   m_LocalScale: {x: 1000, y: 1000, z: 1000}
   m_ConstrainProportionsScale: 1
   m_Children: []
