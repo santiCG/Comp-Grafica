@@ -44,6 +44,10 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _Cubemap:
+        m_Texture: {fileID: 8900000, guid: 15bf4b7ef8f860d4faadd76a358eb46f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _SampleTexture2D_ce377335e56a4320bdd92b938b4305b1_Texture_1_Texture2D:
         m_Texture: {fileID: 2800000, guid: d80fecdc7058d6f45a30955bbfed4cea, type: 3}
         m_Scale: {x: 1, y: 1}
@@ -77,8 +81,9 @@ Material:
     - _ZTest: 4
     - _ZWrite: 0
     - _ZWriteControl: 0
-    - _angularSpeed: 2
-    - _opacity: 0.766
+    - _angularSpeed: 1.1
+    - _opacity: 0.615
     m_Colors:
     - _Pattern: {r: 0.5, g: 0.1, b: 0, a: 0}
+    - _roughnessParams: {r: 0.5, g: 5, b: 0, a: 0}
   m_BuildTextureStacks: []
