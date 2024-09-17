@@ -20,7 +20,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Shield_mtl
+  m_Name: ShieldBackFace_mtl
   m_Shader: {fileID: -6465566751694194690, guid: e18bc4dbdb4e27f44856160aa0ed844f,
     type: 3}
   m_Parent: {fileID: 0}
@@ -70,7 +70,7 @@ Material:
     - _AlphaToMask: 0
     - _Blend: 0
     - _CastShadows: 1
-    - _Cull: 2
+    - _Cull: 1
     - _DisplacementAmount: 0.05
     - _DstBlend: 10
     - _IntSmoothness: 0.43
@@ -89,6 +89,6 @@ Material:
     - _animationSpeed: 2
     - _constructionProgress: 1
     m_Colors:
-    - _ColorBorde: {r: 24.223331, g: 2.7901316, b: 28.167044, a: 1}
+    - _ColorBorde: {r: 19.621552, g: 4.95795, b: 22.363523, a: 1}
     - _NormalVel: {r: 0.5, g: 0.5, b: 0.5, a: 0}
   m_BuildTextureStacks: []
