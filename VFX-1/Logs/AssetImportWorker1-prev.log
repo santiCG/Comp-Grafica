@@ -15,7 +15,7 @@ C:/Users/ESTUDIANTES/Documents/GitHub/Comp-Grafica/VFX-1
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-63956
+63745
 Successfully changed project path to: C:/Users/ESTUDIANTES/Documents/GitHub/Comp-Grafica/VFX-1
 C:/Users/ESTUDIANTES/Documents/GitHub/Comp-Grafica/VFX-1
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ C:/Users/ESTUDIANTES/Documents/GitHub/Comp-Grafica/VFX-1
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [20520] Host "[IP] 10.37.62.44 [Port] 0 [Flags] 2 [Guid] 1478786468 [EditorId] 1478786468 [Version] 1048832 [Id] WindowsEditor(7,N00018643) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [12044] Host "[IP] 10.37.62.44 [Port] 0 [Flags] 2 [Guid] 1658101786 [EditorId] 1658101786 [Version] 1048832 [Id] WindowsEditor(7,N00018643) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [20520] Host "[IP] 10.37.62.44 [Port] 0 [Flags] 2 [Guid] 1478786468 [EditorId] 1478786468 [Version] 1048832 [Id] WindowsEditor(7,N00018643) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [12044] Host "[IP] 10.37.62.44 [Port] 0 [Flags] 2 [Guid] 1658101786 [EditorId] 1658101786 [Version] 1048832 [Id] WindowsEditor(7,N00018643) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
-Refreshing native plugins compatible for Editor in 17.90 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 20.24 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.15f1 (b58023a2b463)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.15f1/Editor/Data/Resources/UnitySubsystems
@@ -70,46 +70,46 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.15f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.15f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56472
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56700
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.15f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.020620 seconds.
-- Loaded All Assemblies, in  0.472 seconds
+Registered in 0.021041 seconds.
+- Loaded All Assemblies, in  0.537 seconds
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.304 seconds
-Domain Reload Profiling: 773ms
-	BeginReloadAssembly (145ms)
+- Finished resetting the current domain, in  0.340 seconds
+Domain Reload Profiling: 873ms
+	BeginReloadAssembly (188ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
 	RebuildCommonClasses (44ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (90ms)
-	LoadAllAssembliesAndSetupDomain (176ms)
-		LoadAssemblies (139ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (88ms)
+	LoadAllAssembliesAndSetupDomain (200ms)
+		LoadAssemblies (183ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (173ms)
-			TypeCache.Refresh (172ms)
-				TypeCache.ScanAssembly (156ms)
+		AnalyzeDomain (197ms)
+			TypeCache.Refresh (196ms)
+				TypeCache.ScanAssembly (178ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (305ms)
+	FinalizeReload (340ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (243ms)
+		SetupLoadedEditorAssemblies (263ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (14ms)
+			InitializePlatformSupportModulesInManaged (17ms)
 			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (164ms)
-			ProcessInitializeOnLoadMethodAttributes (58ms)
+			ProcessInitializeOnLoadAttributes (169ms)
+			ProcessInitializeOnLoadMethodAttributes (70ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -117,8 +117,8 @@ Domain Reload Profiling: 773ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.966 seconds
-Refreshing native plugins compatible for Editor in 8.37 ms, found 3 plugins.
+- Loaded All Assemblies, in  1.018 seconds
+Refreshing native plugins compatible for Editor in 6.76 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Package Manager log level set to [2]
@@ -126,47 +126,47 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.832 seconds
-Domain Reload Profiling: 1790ms
-	BeginReloadAssembly (208ms)
+- Finished resetting the current domain, in  0.879 seconds
+Domain Reload Profiling: 1887ms
+	BeginReloadAssembly (206ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (7ms)
+		DisableScriptedObjects (9ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (22ms)
-	RebuildCommonClasses (46ms)
-	RebuildNativeTypeToScriptingClass (16ms)
-	initialDomainReloadingComplete (70ms)
-	LoadAllAssembliesAndSetupDomain (618ms)
-		LoadAssemblies (459ms)
+		CreateAndSetChildDomain (27ms)
+	RebuildCommonClasses (47ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (66ms)
+	LoadAllAssembliesAndSetupDomain (675ms)
+		LoadAssemblies (502ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (289ms)
-			TypeCache.Refresh (244ms)
-				TypeCache.ScanAssembly (224ms)
-			ScanForSourceGeneratedMonoScriptInfo (28ms)
-			ResolveRequiredComponents (16ms)
-	FinalizeReload (833ms)
+		AnalyzeDomain (287ms)
+			TypeCache.Refresh (234ms)
+				TypeCache.ScanAssembly (215ms)
+			ScanForSourceGeneratedMonoScriptInfo (26ms)
+			ResolveRequiredComponents (25ms)
+	FinalizeReload (879ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (570ms)
+		SetupLoadedEditorAssemblies (639ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (10ms)
 			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (104ms)
-			ProcessInitializeOnLoadAttributes (370ms)
-			ProcessInitializeOnLoadMethodAttributes (69ms)
-			AfterProcessingInitializeOnLoad (13ms)
+			BeforeProcessingInitializeOnLoad (94ms)
+			ProcessInitializeOnLoadAttributes (433ms)
+			ProcessInitializeOnLoadMethodAttributes (81ms)
+			AfterProcessingInitializeOnLoad (16ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (18ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
-Refreshing native plugins compatible for Editor in 8.82 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (24ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 10.36 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 5527 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 66 unused Assets / (1.1 MB). Loaded Objects now: 5986.
-Memory consumption went from 225.6 MB to 224.5 MB.
-Total: 4.089400 ms (FindLiveObjects: 0.495400 ms CreateObjectMapping: 0.445600 ms MarkObjects: 2.759800 ms  DeleteObjects: 0.386800 ms)
+Memory consumption went from 225.7 MB to 224.6 MB.
+Total: 3.778600 ms (FindLiveObjects: 0.420900 ms CreateObjectMapping: 0.410100 ms MarkObjects: 2.642100 ms  DeleteObjects: 0.304600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -182,3 +182,59 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 511200.879558 seconds.
+  path: Assets/shaders/ShieldBackFace_mtl.mat
+  artifactKey: Guid(babc310a21bb49347aed5c4d222f8fa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shaders/ShieldBackFace_mtl.mat using Guid(babc310a21bb49347aed5c4d222f8fa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b8d22ce8fc00dd67950c4f01ac04eac') in 0.776996 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 686.396726 seconds.
+  path: Assets/shaders/ShieldBackFace_mtl.mat
+  artifactKey: Guid(babc310a21bb49347aed5c4d222f8fa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shaders/ShieldBackFace_mtl.mat using Guid(babc310a21bb49347aed5c4d222f8fa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b2fa8c9e858e40c667f0661ff76dbfc') in 0.549682 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 604.984105 seconds.
+  path: Assets/shaders/ShieldBackFace_mtl.mat
+  artifactKey: Guid(babc310a21bb49347aed5c4d222f8fa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shaders/ShieldBackFace_mtl.mat using Guid(babc310a21bb49347aed5c4d222f8fa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cbd14752c58bf55a19ee45e18a397d9') in 0.427298 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 24.107350 seconds.
+  path: Assets/shaders/ShieldBackFace_mtl.mat
+  artifactKey: Guid(babc310a21bb49347aed5c4d222f8fa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shaders/ShieldBackFace_mtl.mat using Guid(babc310a21bb49347aed5c4d222f8fa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcb313400635db0d8b384d827dc1577e') in 0.508281 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 62.060897 seconds.
+  path: Assets/shaders/ShieldBackFace_mtl.mat
+  artifactKey: Guid(babc310a21bb49347aed5c4d222f8fa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shaders/ShieldBackFace_mtl.mat using Guid(babc310a21bb49347aed5c4d222f8fa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f114edfdcc45c340ed07ce08adc576ed') in 0.513983 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 40.015368 seconds.
+  path: Assets/shaders/ShieldBackFace_mtl.mat
+  artifactKey: Guid(babc310a21bb49347aed5c4d222f8fa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shaders/ShieldBackFace_mtl.mat using Guid(babc310a21bb49347aed5c4d222f8fa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ea9ea3eefd312131c18a3c196d06988') in 0.502901 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 3145.954759 seconds.
+  path: Assets/shaders/Shield_mtl.mat
+  artifactKey: Guid(1c78f091ab065fe4d96889c1b94e75a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shaders/Shield_mtl.mat using Guid(1c78f091ab065fe4d96889c1b94e75a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9aa1eaee97a3b97871a7d1e74562de93') in 0.560696 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 5
