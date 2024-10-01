@@ -15,7 +15,7 @@ C:/Users/ESTUDIANTES/Documents/GitHub/Comp-Grafica/VFX-1
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-63745
+57023
 Successfully changed project path to: C:/Users/ESTUDIANTES/Documents/GitHub/Comp-Grafica/VFX-1
 C:/Users/ESTUDIANTES/Documents/GitHub/Comp-Grafica/VFX-1
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ C:/Users/ESTUDIANTES/Documents/GitHub/Comp-Grafica/VFX-1
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [28076] Host "[IP] 10.37.62.44 [Port] 0 [Flags] 2 [Guid] 503089876 [EditorId] 503089876 [Version] 1048832 [Id] WindowsEditor(7,N00018643) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [25324] Host "[IP] 10.37.62.122 [Port] 0 [Flags] 2 [Guid] 747047731 [EditorId] 747047731 [Version] 1048832 [Id] WindowsEditor(7,N00018643) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [28076] Host "[IP] 10.37.62.44 [Port] 0 [Flags] 2 [Guid] 503089876 [EditorId] 503089876 [Version] 1048832 [Id] WindowsEditor(7,N00018643) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [25324] Host "[IP] 10.37.62.122 [Port] 0 [Flags] 2 [Guid] 747047731 [EditorId] 747047731 [Version] 1048832 [Id] WindowsEditor(7,N00018643) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
-Refreshing native plugins compatible for Editor in 25.44 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 24.17 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.15f1 (b58023a2b463)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.15f1/Editor/Data/Resources/UnitySubsystems
@@ -70,46 +70,46 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.15f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.15f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56664
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56584
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.15f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.017229 seconds.
-- Loaded All Assemblies, in  0.550 seconds
+Registered in 0.013277 seconds.
+- Loaded All Assemblies, in  0.428 seconds
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.363 seconds
-Domain Reload Profiling: 910ms
-	BeginReloadAssembly (204ms)
+- Finished resetting the current domain, in  0.292 seconds
+Domain Reload Profiling: 716ms
+	BeginReloadAssembly (147ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (43ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (85ms)
-	LoadAllAssembliesAndSetupDomain (202ms)
-		LoadAssemblies (200ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (73ms)
+	LoadAllAssembliesAndSetupDomain (153ms)
+		LoadAssemblies (141ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (199ms)
-			TypeCache.Refresh (198ms)
-				TypeCache.ScanAssembly (181ms)
+		AnalyzeDomain (150ms)
+			TypeCache.Refresh (149ms)
+				TypeCache.ScanAssembly (135ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (364ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (293ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (278ms)
+		SetupLoadedEditorAssemblies (230ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (15ms)
-			SetLoadedEditorAssemblies (5ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (185ms)
-			ProcessInitializeOnLoadMethodAttributes (71ms)
+			ProcessInitializeOnLoadAttributes (141ms)
+			ProcessInitializeOnLoadMethodAttributes (70ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -117,8 +117,8 @@ Domain Reload Profiling: 910ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.012 seconds
-Refreshing native plugins compatible for Editor in 8.05 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.836 seconds
+Refreshing native plugins compatible for Editor in 8.93 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Package Manager log level set to [2]
@@ -126,47 +126,47 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.871 seconds
-Domain Reload Profiling: 1872ms
-	BeginReloadAssembly (215ms)
+- Finished resetting the current domain, in  0.813 seconds
+Domain Reload Profiling: 1643ms
+	BeginReloadAssembly (184ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
+		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (28ms)
-	RebuildCommonClasses (46ms)
-	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (62ms)
-	LoadAllAssembliesAndSetupDomain (663ms)
-		LoadAssemblies (495ms)
+		CreateAndSetChildDomain (24ms)
+	RebuildCommonClasses (45ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (51ms)
+	LoadAllAssembliesAndSetupDomain (537ms)
+		LoadAssemblies (394ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (276ms)
-			TypeCache.Refresh (235ms)
-				TypeCache.ScanAssembly (216ms)
-			ScanForSourceGeneratedMonoScriptInfo (27ms)
-			ResolveRequiredComponents (13ms)
-	FinalizeReload (871ms)
+		AnalyzeDomain (260ms)
+			TypeCache.Refresh (211ms)
+				TypeCache.ScanAssembly (192ms)
+			ScanForSourceGeneratedMonoScriptInfo (29ms)
+			ResolveRequiredComponents (18ms)
+	FinalizeReload (814ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (611ms)
+		SetupLoadedEditorAssemblies (603ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (10ms)
+			InitializePlatformSupportModulesInManaged (11ms)
 			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (100ms)
-			ProcessInitializeOnLoadAttributes (407ms)
-			ProcessInitializeOnLoadMethodAttributes (76ms)
+			BeforeProcessingInitializeOnLoad (106ms)
+			ProcessInitializeOnLoadAttributes (393ms)
+			ProcessInitializeOnLoadMethodAttributes (75ms)
 			AfterProcessingInitializeOnLoad (14ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (18ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
-Refreshing native plugins compatible for Editor in 9.30 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (20ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 8.31 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5527 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 66 unused Assets / (1.1 MB). Loaded Objects now: 5986.
-Memory consumption went from 225.8 MB to 224.7 MB.
-Total: 3.869200 ms (FindLiveObjects: 0.570200 ms CreateObjectMapping: 0.455300 ms MarkObjects: 2.507700 ms  DeleteObjects: 0.334700 ms)
+Unloading 5528 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 66 unused Assets / (1.1 MB). Loaded Objects now: 5987.
+Memory consumption went from 226.5 MB to 225.4 MB.
+Total: 3.979900 ms (FindLiveObjects: 0.488100 ms CreateObjectMapping: 0.514900 ms MarkObjects: 2.619600 ms  DeleteObjects: 0.356200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -184,105 +184,299 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 511170.256456 seconds.
-  path: Assets/shaders/Shield_mtl.mat
-  artifactKey: Guid(1c78f091ab065fe4d96889c1b94e75a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/shaders/Shield_mtl.mat using Guid(1c78f091ab065fe4d96889c1b94e75a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6d640f84de740e64319bbd4f62611eb') in 0.385046 seconds
+  Time since last request: 1287510.988074 seconds.
+  path: Assets/shaders/Lambert.mat
+  artifactKey: Guid(fef7f4cfaf250334ba698f2d06660043) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shaders/Lambert.mat using Guid(fef7f4cfaf250334ba698f2d06660043) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd2e71e85d2e4dfac6c9759d7825344c') in 0.304870 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 5
 ========================================================================
 Received Import Request.
-  Time since last request: 0.133875 seconds.
-  path: Assets/shaders/Shield_mtl 1.mat
-  artifactKey: Guid(babc310a21bb49347aed5c4d222f8fa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/shaders/Shield_mtl 1.mat using Guid(babc310a21bb49347aed5c4d222f8fa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48d42b67263e08b31b0651820a38d2e1') in 0.063841 seconds
+  Time since last request: 9.164570 seconds.
+  path: Assets/shaders/fakeSSS.shadergraph
+  artifactKey: Guid(070a6f3b98cb90b488f875440929dd1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shaders/fakeSSS.shadergraph using Guid(070a6f3b98cb90b488f875440929dd1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a54dd6e228ad7827263e0bb0d583ab8b') in 0.495720 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 5
+Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 10.094435 seconds.
-  path: Assets/shaders/ShieldBackFace_mtl.mat
-  artifactKey: Guid(babc310a21bb49347aed5c4d222f8fa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/shaders/ShieldBackFace_mtl.mat using Guid(babc310a21bb49347aed5c4d222f8fa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1afa044bb25497172b6e5551fbe550c') in 0.045804 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 5
-========================================================================
-Received Import Request.
-  Time since last request: 14.396923 seconds.
-  path: Assets/shaders/ShieldBackFace_mtl.mat
-  artifactKey: Guid(babc310a21bb49347aed5c4d222f8fa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/shaders/ShieldBackFace_mtl.mat using Guid(babc310a21bb49347aed5c4d222f8fa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a86db6ac8439096b57962268111c1ec5') in 0.550351 seconds
-Number of updated asset objects reloaded before import = 1
-Number of asset objects unloaded after import = 5
-========================================================================
-Received Import Request.
-  Time since last request: 4.878181 seconds.
-  path: Assets/shaders/Shield_mtl.mat
-  artifactKey: Guid(1c78f091ab065fe4d96889c1b94e75a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/shaders/Shield_mtl.mat using Guid(1c78f091ab065fe4d96889c1b94e75a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69d7ffbcddd23600a9b66d1f51208d8a') in 0.043507 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 5
-========================================================================
-Received Import Request.
-  Time since last request: 687.136708 seconds.
-  path: Assets/shaders/Shield_mtl.mat
-  artifactKey: Guid(1c78f091ab065fe4d96889c1b94e75a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/shaders/Shield_mtl.mat using Guid(1c78f091ab065fe4d96889c1b94e75a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9d57e5c3e877371601fc5ccdf9e1bbd') in 0.527521 seconds
-Number of updated asset objects reloaded before import = 1
-Number of asset objects unloaded after import = 5
-========================================================================
-Received Import Request.
-  Time since last request: 605.000216 seconds.
-  path: Assets/shaders/Shield_mtl.mat
-  artifactKey: Guid(1c78f091ab065fe4d96889c1b94e75a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/shaders/Shield_mtl.mat using Guid(1c78f091ab065fe4d96889c1b94e75a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2a8c38f5f62ccc5ce6e263dad82ead8') in 0.434812 seconds
-Number of updated asset objects reloaded before import = 1
-Number of asset objects unloaded after import = 5
-========================================================================
-Received Import Request.
-  Time since last request: 24.103335 seconds.
-  path: Assets/shaders/Shield_mtl.mat
-  artifactKey: Guid(1c78f091ab065fe4d96889c1b94e75a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/shaders/Shield_mtl.mat using Guid(1c78f091ab065fe4d96889c1b94e75a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56707ee2f5fdd32efe0df6947ffd441a') in 0.508618 seconds
-Number of updated asset objects reloaded before import = 1
-Number of asset objects unloaded after import = 5
-========================================================================
-Received Import Request.
-  Time since last request: 62.058444 seconds.
-  path: Assets/shaders/Shield_mtl.mat
-  artifactKey: Guid(1c78f091ab065fe4d96889c1b94e75a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/shaders/Shield_mtl.mat using Guid(1c78f091ab065fe4d96889c1b94e75a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36024d665fdb74c2bde1cc53172ff70b') in 0.519598 seconds
-Number of updated asset objects reloaded before import = 1
-Number of asset objects unloaded after import = 5
-========================================================================
-Received Import Request.
-  Time since last request: 40.009856 seconds.
-  path: Assets/shaders/Shield_mtl.mat
-  artifactKey: Guid(1c78f091ab065fe4d96889c1b94e75a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/shaders/Shield_mtl.mat using Guid(1c78f091ab065fe4d96889c1b94e75a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c514c84f71a417a7bd751cfe23ace06b') in 0.486622 seconds
-Number of updated asset objects reloaded before import = 1
-Number of asset objects unloaded after import = 5
-========================================================================
-Received Import Request.
-  Time since last request: 1328.368657 seconds.
-  path: Assets/Prefabs/sphereDivided.fbx
-  artifactKey: Guid(9a32f0aa3a070634282a5edfbe778497) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/sphereDivided.fbx using Guid(9a32f0aa3a070634282a5edfbe778497) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e41b7f11a6ee9ef96e266b29a20254a') in 0.126494 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 1805.218639 seconds.
-  path: Assets/shaders/ShieldBackFace_mtl.mat
-  artifactKey: Guid(babc310a21bb49347aed5c4d222f8fa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/shaders/ShieldBackFace_mtl.mat using Guid(babc310a21bb49347aed5c4d222f8fa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd79f7c212824050432b3e58a4c466981') in 0.562915 seconds
-Number of updated asset objects reloaded before import = 1
-Number of asset objects unloaded after import = 5
-========================================================================
-Received Import Request.
-  Time since last request: 11.644680 seconds.
-  path: Assets/shaders/New Material.mat
-  artifactKey: Guid(7d288dc3ad8cc4445b7125d34c2fad4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/shaders/New Material.mat using Guid(7d288dc3ad8cc4445b7125d34c2fad4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f821bcf0d6311c8dc6c48d85069fb19') in 0.018755 seconds
+  Time since last request: 302.092418 seconds.
+  path: Assets/Materials/human-skin-freckled_albedo.png
+  artifactKey: Guid(f788941233eb3c04e96de420274ddfbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/human-skin-freckled_albedo.png using Guid(f788941233eb3c04e96de420274ddfbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63f15d806ffb11d8eb409dcf8ceb7203') in 0.029560 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1178.016880 seconds.
+  path: Assets/includes/Light.hlsl
+  artifactKey: Guid(0d2714866ce7cbd429ead24a213fc234) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/includes/Light.hlsl using Guid(0d2714866ce7cbd429ead24a213fc234) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33a07f75a689e8d8eb7d707d5aec85e8') in 0.002391 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 150.177308 seconds.
+  path: Assets/includes/Light.hlsl
+  artifactKey: Guid(0d2714866ce7cbd429ead24a213fc234) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/includes/Light.hlsl using Guid(0d2714866ce7cbd429ead24a213fc234) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68c221830bc0d9a6462f51768657b824') in 0.001649 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 232.579688 seconds.
+  path: Assets/includes/Light.hlsl
+  artifactKey: Guid(0d2714866ce7cbd429ead24a213fc234) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/includes/Light.hlsl using Guid(0d2714866ce7cbd429ead24a213fc234) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5683c274a4024c1f73d51a387772b40d') in 0.002262 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 24.924751 seconds.
+  path: Assets/includes/Light.hlsl
+  artifactKey: Guid(0d2714866ce7cbd429ead24a213fc234) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/includes/Light.hlsl using Guid(0d2714866ce7cbd429ead24a213fc234) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f39eb6a1da079971f1e48fe188400345') in 0.001283 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 114.009496 seconds.
+  path: Assets/includes/Light.hlsl
+  artifactKey: Guid(0d2714866ce7cbd429ead24a213fc234) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/includes/Light.hlsl using Guid(0d2714866ce7cbd429ead24a213fc234) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '019abd9f1e8b0aebb778bbeef1d0e649') in 0.001587 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 40.476152 seconds.
+  path: Assets/includes/Light.hlsl
+  artifactKey: Guid(0d2714866ce7cbd429ead24a213fc234) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/includes/Light.hlsl using Guid(0d2714866ce7cbd429ead24a213fc234) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3466758513078a060e1c6d65b2f9b6a3') in 0.001616 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 39.144942 seconds.
+  path: Assets/includes/Light.hlsl
+  artifactKey: Guid(0d2714866ce7cbd429ead24a213fc234) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/includes/Light.hlsl using Guid(0d2714866ce7cbd429ead24a213fc234) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a1aea8dabb0e5bad15ae29e29d0de41') in 0.001850 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 61.308149 seconds.
+  path: Assets/includes/Light.hlsl
+  artifactKey: Guid(0d2714866ce7cbd429ead24a213fc234) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/includes/Light.hlsl using Guid(0d2714866ce7cbd429ead24a213fc234) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fea43dffa3befa1226e21c096df1bf55') in 0.001651 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 388.772540 seconds.
+  path: Assets/shaders/fakeSSS.shadergraph
+  artifactKey: Guid(070a6f3b98cb90b488f875440929dd1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shaders/fakeSSS.shadergraph using Guid(070a6f3b98cb90b488f875440929dd1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1da57bee985810819a8e340543735a85') in 0.534879 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 10.140009 seconds.
+  path: Assets/shaders/SSS_mtl.mat
+  artifactKey: Guid(7adc7584e2488eb4683d29b45edacdf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shaders/SSS_mtl.mat using Guid(7adc7584e2488eb4683d29b45edacdf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21f9b734ae69755afa85e03da1809d38') in 0.021019 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 33.823589 seconds.
+  path: Assets/shaders/SSS_mtl.mat
+  artifactKey: Guid(7adc7584e2488eb4683d29b45edacdf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shaders/SSS_mtl.mat using Guid(7adc7584e2488eb4683d29b45edacdf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2909da327aa5a5e3367406186f9a1ac8') in 0.508564 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 3.428003 seconds.
+  path: Assets/shaders/SSS_mtl.mat
+  artifactKey: Guid(7adc7584e2488eb4683d29b45edacdf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shaders/SSS_mtl.mat using Guid(7adc7584e2488eb4683d29b45edacdf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader error in 'Shader Graphs/fakeSSS': undeclared identifier 'GetMainLigth' at Assets/includes/Light.hlsl(14) (on d3d11)
+
+Compiling Subshader: 0, Pass: Universal Forward, Vertex program with <no keywords>
+Platform defines: SHADER_API_DESKTOP UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: DIRLIGHTMAP_COMBINED DOTS_INSTANCING_ON FOG_EXP FOG_EXP2 FOG_LINEAR INSTANCING_ON LIGHTMAP_ON SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _SAMPLE_GI
+Shader error in 'Shader Graphs/fakeSSS': undeclared identifier 'GetMainLigth' at Assets/includes/Light.hlsl(14) (on d3d11)
+
+Compiling Subshader: 0, Pass: Universal Forward, Vertex program with <no keywords>
+Platform defines: SHADER_API_DESKTOP UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: DIRLIGHTMAP_COMBINED DOTS_INSTANCING_ON FOG_EXP FOG_EXP2 FOG_LINEAR INSTANCING_ON LIGHTMAP_ON SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _SAMPLE_GI
+ -> (artifact id: 'de7835df10d5d86513e290dd008d9d94') in 0.436538 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 25.442785 seconds.
+  path: Assets/shaders/SSS_mtl.mat
+  artifactKey: Guid(7adc7584e2488eb4683d29b45edacdf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shaders/SSS_mtl.mat using Guid(7adc7584e2488eb4683d29b45edacdf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b38af7527e3994bdf9b6898c4b819b3') in 0.226683 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 87.185006 seconds.
+  path: Assets/shaders/SSS_mtl.mat
+  artifactKey: Guid(7adc7584e2488eb4683d29b45edacdf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shaders/SSS_mtl.mat using Guid(7adc7584e2488eb4683d29b45edacdf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d57ae699670ac0c4b8f7d3cb7e6bac4') in 0.485855 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 148.872789 seconds.
+  path: Assets/shaders/SSS_mtl.mat
+  artifactKey: Guid(7adc7584e2488eb4683d29b45edacdf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shaders/SSS_mtl.mat using Guid(7adc7584e2488eb4683d29b45edacdf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a38f0e469253f54466752613d1dc2b9') in 0.481780 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 461.244734 seconds.
+  path: Assets/shaders/SSS_mtl.mat
+  artifactKey: Guid(7adc7584e2488eb4683d29b45edacdf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shaders/SSS_mtl.mat using Guid(7adc7584e2488eb4683d29b45edacdf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '154ce45b2836a38c29f1823d5fa19c74') in 0.554545 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 5.221311 seconds.
+  path: Assets/Materials/human-skin-freckled_normal-ogl.png
+  artifactKey: Guid(5dc2a95100897d040bc37066be16f918) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/human-skin-freckled_normal-ogl.png using Guid(5dc2a95100897d040bc37066be16f918) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2e318e293a22fa482fd9c917bf5d1e5') in 0.051186 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 31.165790 seconds.
+  path: Assets/Materials/human-skin-freckled_normal-ogl.png
+  artifactKey: Guid(5dc2a95100897d040bc37066be16f918) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/human-skin-freckled_normal-ogl.png using Guid(5dc2a95100897d040bc37066be16f918) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7a228d357aa0702c2989332194bcaef') in 0.035826 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 89.444927 seconds.
+  path: Assets/shaders/SSS_mtl.mat
+  artifactKey: Guid(7adc7584e2488eb4683d29b45edacdf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shaders/SSS_mtl.mat using Guid(7adc7584e2488eb4683d29b45edacdf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c88849c9c6a046e92915e31cd4d8701') in 0.016085 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 4.932777 seconds.
+  path: Assets/shaders/fakeSSS.shadergraph
+  artifactKey: Guid(070a6f3b98cb90b488f875440929dd1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shaders/fakeSSS.shadergraph using Guid(070a6f3b98cb90b488f875440929dd1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48296f2941baa041d1b587c4a22535c2') in 0.020912 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 31.543398 seconds.
+  path: Assets/shaders/SSS_mtl.mat
+  artifactKey: Guid(7adc7584e2488eb4683d29b45edacdf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shaders/SSS_mtl.mat using Guid(7adc7584e2488eb4683d29b45edacdf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c188babac6bd26a8b1c58e627ddd8ab9') in 0.515243 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 68.709977 seconds.
+  path: Assets/shaders/SSS_mtl.mat
+  artifactKey: Guid(7adc7584e2488eb4683d29b45edacdf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shaders/SSS_mtl.mat using Guid(7adc7584e2488eb4683d29b45edacdf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e052c10639c4f28056ec339ac489fac') in 0.527147 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 118.451957 seconds.
+  path: Assets/shaders/SSS_mtl.mat
+  artifactKey: Guid(7adc7584e2488eb4683d29b45edacdf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shaders/SSS_mtl.mat using Guid(7adc7584e2488eb4683d29b45edacdf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82fdf555fe3a13f86c4841af6a3d0527') in 0.561324 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 122.532623 seconds.
+  path: Assets/shaders/SSS_mtl.mat
+  artifactKey: Guid(7adc7584e2488eb4683d29b45edacdf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shaders/SSS_mtl.mat using Guid(7adc7584e2488eb4683d29b45edacdf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14934c5e0216537b21727d1f67978fe7') in 0.543258 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 505.747124 seconds.
+  path: Assets/shaders/SSS_mtl.mat
+  artifactKey: Guid(7adc7584e2488eb4683d29b45edacdf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shaders/SSS_mtl.mat using Guid(7adc7584e2488eb4683d29b45edacdf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4492cc66dab5904324dd9c4e9e1185b4') in 0.526939 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 2.063009 seconds.
+  path: Assets/shaders/SSS_mtl.mat
+  artifactKey: Guid(7adc7584e2488eb4683d29b45edacdf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shaders/SSS_mtl.mat using Guid(7adc7584e2488eb4683d29b45edacdf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14198f87fddbbf1318219a9f4c05ddbd') in 0.659776 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 15.966627 seconds.
+  path: Assets/shaders/SSS_mtl.mat
+  artifactKey: Guid(7adc7584e2488eb4683d29b45edacdf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shaders/SSS_mtl.mat using Guid(7adc7584e2488eb4683d29b45edacdf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f664a724a8a3dfa1b0a46890cdcc318') in 0.538447 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 22.480358 seconds.
+  path: Assets/shaders/SSS_mtl.mat
+  artifactKey: Guid(7adc7584e2488eb4683d29b45edacdf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shaders/SSS_mtl.mat using Guid(7adc7584e2488eb4683d29b45edacdf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44203e5b3efb0b8618ae228ee81a9139') in 0.572501 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 154.014407 seconds.
+  path: Assets/shaders/Matcap.shadergraph
+  artifactKey: Guid(58bd764067fa0454e8f9c3d7de192632) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shaders/Matcap.shadergraph using Guid(58bd764067fa0454e8f9c3d7de192632) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bee26024c91b7f9179113a69e29ea460') in 0.484194 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 210.282251 seconds.
+  path: Assets/Materials/MatcapGold.jpg
+  artifactKey: Guid(60c34ead0f230ab4e9d019891b7ff9fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/MatcapGold.jpg using Guid(60c34ead0f230ab4e9d019891b7ff9fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '259bc1c5621569f5a63de39c4a7cce76') in 0.023431 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 38.876363 seconds.
+  path: Assets/shaders/Matcap_mtl.mat
+  artifactKey: Guid(bbe567bd1ed4cfe4b84ede75fa226906) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shaders/Matcap_mtl.mat using Guid(bbe567bd1ed4cfe4b84ede75fa226906) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19df3f3c91eac06f1796a5599cbb1b12') in 0.018294 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 7.821762 seconds.
+  path: Assets/shaders/Matcap_mtl.mat
+  artifactKey: Guid(bbe567bd1ed4cfe4b84ede75fa226906) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shaders/Matcap_mtl.mat using Guid(bbe567bd1ed4cfe4b84ede75fa226906) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02098dd3d7d3543cdcc699576c86e38f') in 0.484459 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 233.877811 seconds.
+  path: Assets/shaders/Matcap_mtl.mat
+  artifactKey: Guid(bbe567bd1ed4cfe4b84ede75fa226906) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shaders/Matcap_mtl.mat using Guid(bbe567bd1ed4cfe4b84ede75fa226906) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba592386ec387fbd096947fcda749653') in 0.464103 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
